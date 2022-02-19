@@ -9,7 +9,7 @@ function Background:load()
 end
 
 function Background:update(dt)
-    self.rotation = self.rotation + 0.9 * dt
+    self.rotation = self.rotation + 0.1 * dt
 end
 
 function Background:draw()
